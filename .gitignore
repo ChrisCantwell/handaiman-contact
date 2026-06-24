@@ -1,0 +1,35 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local environment files
+.env
+.env.*
+*.local
+
+# Logs
+*.log
+
+# Build artifacts
+*.zip
+build/
+dist/
+release/
+releases/
+
+# Dependencies / generated folders, if ever used
+node_modules/
+vendor/
+
+# WordPress local installs / accidental full-site copies
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup*/
